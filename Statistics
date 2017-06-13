@@ -29,7 +29,7 @@ void graph::addvertex(const string &name)
         vertex *v;
         v = new vertex(name);
         work[name] = v;
-        return;
+        return 0;
     }
     cout << "\nVertex already exists!";
 }
