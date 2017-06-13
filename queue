@@ -23,7 +23,7 @@ int main()
         std::cout << "Kolejka jest pusta." << std::endl;
     } else
     {
-        std::cout << "W kolejce znajduje sie przynajmniej jeden element." << std::endl;
+        std::cout << "W kolejce znajduje sie minimalnie jeden element." << std::endl;
     }
    
     getch();
