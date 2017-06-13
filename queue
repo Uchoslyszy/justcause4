@@ -1,0 +1,31 @@
+#include <queue>
+#include <iostream>
+#include <conio.h>
+
+int main()
+{
+    std::queue < int > kolejkaLiczb;
+   
+    if( kolejkaLiczb.empty() )
+    {
+        std::cout << "Kolejka jest pusta." << std::endl;
+    } else
+    {
+        std::cout << "W kolejce znajduje sie przynajmniej jeden element." << std::endl;
+    }
+   
+    kolejkaLiczb.push( 1234 );
+    kolejkaLiczb.push( 124 );
+    kolejkaLiczb.push( 34 );
+    kolejkaLiczb.push( 4 );
+    if( kolejkaLiczb.empty() )
+    {
+        std::cout << "Kolejka jest pusta." << std::endl;
+    } else
+    {
+        std::cout << "W kolejce znajduje sie przynajmniej jeden element." << std::endl;
+    }
+   
+    getch();
+    return 0;
+}
